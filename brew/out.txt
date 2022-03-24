@@ -1,0 +1,5 @@
+asdf
+sf-pwgen
+tmux
+slack
+visual-studio-code
