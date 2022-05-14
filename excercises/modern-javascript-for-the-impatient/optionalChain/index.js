@@ -9,7 +9,7 @@ const zero = new Proxy(() => zero, {
 });
 
 export function optionalChain(original) {
-  if (typeof original !== 'object') return original
+  if (typeof original !== "object") return original;
   return new Proxy(original, {
     get(target, key) {
       const value = target[key];
